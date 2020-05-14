@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38360" started-at="2020-05-14T09:28:49Z" finished-at="2020-05-14T09:29:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38360" started-at="2020-05-14T09:28:49Z" finished-at="2020-05-14T09:29:27Z">
+      <class name="com.OpenStackOverflow">
+        <test-method status="PASS" signature="setupBrowserAndLogin()[pri:0, instance:com.OpenStackOverflow@7cef4e59]" name="setupBrowserAndLogin" is-config="true" duration-ms="8558" started-at="2020-05-14T14:58:49Z" finished-at="2020-05-14T14:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowserAndLogin -->
+        <test-method status="PASS" signature="OpenGoogletest()[pri:0, instance:com.OpenStackOverflow@7cef4e59]" name="OpenGoogletest" duration-ms="7243" started-at="2020-05-14T14:58:57Z" finished-at="2020-05-14T14:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogletest -->
+      </class> <!-- com.OpenStackOverflow -->
+      <class name="com.OpenGoogleSite">
+        <test-method status="PASS" signature="setupBrowserAndLogin()[pri:0, instance:com.OpenGoogleSite@64b8f8f4]" name="setupBrowserAndLogin" is-config="true" duration-ms="8721" started-at="2020-05-14T14:59:05Z" finished-at="2020-05-14T14:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowserAndLogin -->
+        <test-method status="PASS" signature="OpenGoogletest()[pri:0, instance:com.OpenGoogleSite@64b8f8f4]" name="OpenGoogletest" duration-ms="13810" started-at="2020-05-14T14:59:13Z" finished-at="2020-05-14T14:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogletest -->
+      </class> <!-- com.OpenGoogleSite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
